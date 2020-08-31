@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.088973">
+<testcase classname="BlazeDemo Application Testing" name="Login with correct username and password" time="0.088926">
+<system-out><![CDATA[Given This is a valid login test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BlazeDemo Application Testing" name="Login with wrong username and password" time="0.000024">
+<system-out><![CDATA[Given This is invalid login test............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="BlazeDemo Application Testing" name="create a deal" time="0.000023">
+<system-out><![CDATA[Given This is a deal test case..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

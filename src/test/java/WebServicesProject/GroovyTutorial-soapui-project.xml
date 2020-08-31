@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="886cc468-b949-45f4-b208-10c035e7bff0" activeEnvironment="Default" name="GroovyTutorial" resourceRoot="" soapui-version="5.4.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="1af8b8fa-b39f-403c-ba75-f0216ebffc16" name="Groovytutorial"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="e27d366b-e767-4aec-9943-c9ffd89a9085" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GroovyT1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script1" id="e323c3e3-bf43-49f5-a725-7b96008fdd88"><con:settings/><con:config><script>def terms=["soapui","RestApi","Appium","Selenium"]
+ArrayList ar = new ArrayList();
+for(String str : terms){
+
+	log.info str
+     ar.add(str)
+}
+
+log.info ar.size()
+
+//Map
+
+def table =["name":"soap","course":"IT"]
+
+log.info table["name"]
+
+def count =2
+
+if(count==2){
+
+	log.info "success"
+}
+else{
+
+	log.info "Fail"
+}
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
